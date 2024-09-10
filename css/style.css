@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+}
+
+nav, footer {
+    background-color: #29092b;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a, footer a {
+    color: #8b5d93;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.splash {
+    background-color: rgb(215, 174, 226);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #7e5794;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #4d245f;
+}
+
+h1, h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #4f2e7d;
+}
+
+hr {
+    border-top: 2px dashed #ccc;
+    border-bottom: none;
+}
+
+footer {
+    background-color: #7e007e;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer i {
+    color: #ffffff;
+}
+
+section {
+    padding: 20px;
+    margin: 0 20px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul, dl {
+    padding-left: 20px;
+}
+
+li, dt, dd {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #893d9a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8f64b2;
+}
+
+/* Project Cards and Columns */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #e8e8e8;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fas.fa-cat {
+    margin-right: 5px;  
+    color: #c8a3eb; 
+}
+.profile-pic {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 3px solid #4d245f; 
+}
+.info-box {
+    background-color: #b677bc; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 80%; 
+    text-align: center; 
+}
+.box {
+    border: 2px solid #9943a6; /* Solid border with a color */
+    background-color: #f9f9f9; /* Light background for the content */
+    padding: 20px; /* Padding inside the box */
+    margin: 20px 0; /* Vertical spacing between boxes */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Optional: adds a subtle shadow */
+}
+
+.box h2 {
+    color: #333;
+    margin-bottom: 15px; /* Spacing below the header */
+}
+
+.box ul, .box p {
+    margin-left: 20px; /* Indent content for better readability */
+}
+
